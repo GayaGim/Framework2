@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name = "Suite1">
+<test thread-count = "5" name="Login">
+        <classes>
+        	<class name="com.automation.testcases.TC01_TestDemoblazeLogin"/>
+        </classes>
+            
+    </test>
+</suite>
+
