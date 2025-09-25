@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Setting up reports and Test are getting ready]]>
@@ -14,12 +14,12 @@
       <![CDATA[Browser and application up and running.]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-09-24T21:36:32Z" name="Default suite" finished-at="2025-09-24T21:36:48Z" duration-ms="16180">
+  <suite started-at="2025-09-25T12:19:42Z" name="Default suite" finished-at="2025-09-25T12:20:01Z" duration-ms="18585">
     <groups>
     </groups>
-    <test started-at="2025-09-24T21:36:32Z" name="Default test" finished-at="2025-09-24T21:36:48Z" duration-ms="16180">
-      <class name="com.automation.testcases.TC02_TestDemoblazeLogin">
-        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:com.automation.testcases.TC02_TestDemoblazeLogin@4201c465]" started-at="2025-09-24T21:36:31Z" name="setUpSuite" finished-at="2025-09-24T21:36:32Z" duration-ms="678" status="PASS">
+    <test started-at="2025-09-25T12:19:42Z" name="Default test" finished-at="2025-09-25T12:20:01Z" duration-ms="18585">
+      <class name="com.automation.testcases.TC01_TestDemoblazeResistration">
+        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:com.automation.testcases.TC01_TestDemoblazeResistration@239a307b]" started-at="2025-09-25T12:19:27Z" name="setUpSuite" finished-at="2025-09-25T12:19:42Z" duration-ms="15191" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Setting up reports and Test are getting ready]]>
@@ -29,7 +29,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- setUpSuite -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automation.testcases.TC02_TestDemoblazeLogin@4201c465]" started-at="2025-09-24T21:36:32Z" name="setUp" finished-at="2025-09-24T21:36:36Z" duration-ms="4649" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automation.testcases.TC01_TestDemoblazeResistration@239a307b]" started-at="2025-09-25T12:19:42Z" name="setUp" finished-at="2025-09-25T12:19:48Z" duration-ms="5780" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Trying to start browser and getting application ready.]]>
@@ -39,86 +39,37 @@
             </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testLogin()[pri:0, instance:com.automation.testcases.TC02_TestDemoblazeLogin@4201c465]" started-at="2025-09-24T21:36:36Z" name="testLogin" finished-at="2025-09-24T21:36:47Z" duration-ms="10544" status="FAIL">
-          <exception class="org.openqa.selenium.UnhandledAlertException">
-            <message>
-              <![CDATA[unexpected alert open: {Alert text : Wrong password.}
-  (Session info: chrome=140.0.7339.128): Wrong password.
-Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
-System info: host: 'LAPTOP-5114496R', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\64223\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53616}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 451789b7c1231e0b6ccfe47dd7f7df31
-*** Element info: {Using=xpath, value=//a[@id='nameofuser']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Wrong password.}
-  (Session info: chrome=140.0.7339.128): Wrong password.
-Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
-System info: host: 'LAPTOP-5114496R', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\64223\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53616}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 451789b7c1231e0b6ccfe47dd7f7df31
-*** Element info: {Using=xpath, value=//a[@id='nameofuser']}
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy15.getText(Unknown Source)
-at com.automation.pages.LoginPage.nameOfUser(LoginPage.java:69)
-at com.automation.testcases.TC02_TestDemoblazeLogin.testLogin(TC02_TestDemoblazeLogin.java:28)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLogin -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.automation.testcases.TC02_TestDemoblazeLogin@4201c465]" started-at="2025-09-24T21:36:47Z" name="tearDownMethod" finished-at="2025-09-24T21:36:48Z" duration-ms="743" status="PASS">
+        <test-method is-config="true" signature="setupLogger(java.lang.reflect.Method)[pri:0, instance:com.automation.testcases.TC01_TestDemoblazeResistration@239a307b]" started-at="2025-09-25T12:19:48Z" name="setupLogger" finished-at="2025-09-25T12:19:48Z" duration-ms="17" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testLogin status=FAILURE method=TC02_TestDemoblazeLogin.testLogin()[pri:0, instance:com.automation.testcases.TC02_TestDemoblazeLogin@4201c465] output={null}]]]>
+                <![CDATA[public void com.automation.testcases.TC01_TestDemoblazeResistration.testLogin()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupLogger -->
+        <test-method signature="testLogin()[pri:0, instance:com.automation.testcases.TC01_TestDemoblazeResistration@239a307b]" started-at="2025-09-25T12:19:48Z" name="testLogin" finished-at="2025-09-25T12:19:57Z" duration-ms="8526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.automation.testcases.TC01_TestDemoblazeResistration@239a307b]" started-at="2025-09-25T12:19:57Z" name="tearDownMethod" finished-at="2025-09-25T12:20:00Z" duration-ms="3054" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogin status=SUCCESS method=TC01_TestDemoblazeResistration.testLogin()[pri:0, instance:com.automation.testcases.TC01_TestDemoblazeResistration@239a307b] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="driverQuit()[pri:0, instance:com.automation.testcases.TC02_TestDemoblazeLogin@4201c465]" started-at="2025-09-24T21:36:48Z" name="driverQuit" finished-at="2025-09-24T21:36:48Z" duration-ms="220" status="PASS">
+        <test-method is-config="true" signature="driverQuit()[pri:0, instance:com.automation.testcases.TC01_TestDemoblazeResistration@239a307b]" started-at="2025-09-25T12:20:00Z" name="driverQuit" finished-at="2025-09-25T12:20:01Z" duration-ms="1182" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverQuit -->
-      </class> <!-- com.automation.testcases.TC02_TestDemoblazeLogin -->
+      </class> <!-- com.automation.testcases.TC01_TestDemoblazeResistration -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

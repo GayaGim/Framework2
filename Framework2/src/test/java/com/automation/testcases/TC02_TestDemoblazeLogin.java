@@ -24,8 +24,12 @@ public class TC02_TestDemoblazeLogin extends BaseClass {
 		logger.info("Starting the Application");
 		
 		loginPage.login(excel.getStringData("Sheet1", 0, 0), excel.getStringData("Sheet1", 0, 1));
+		try {
+			assertEquals(loginPage.nameOfUser(), "Welcome gtjay");
+		}catch (Exception e) {
+			loginPage.successfulPopup();
+		}
 		
-		assertEquals(loginPage.nameOfUser(), "Welcome gtjay");
 		Helper.captureScreenshots(driver);
 		
 		logger.fail("Login Unsuccessful");

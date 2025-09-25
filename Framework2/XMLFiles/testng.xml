@@ -3,7 +3,7 @@
 <suite name = "Suite1">
 <test thread-count = "5" name="Login">
         <classes>
-        	<class name="com.automation.testcases.TC01_TestDemoblazeLogin"/>
+        	<class name="com.automation.testcases.TC01_TestDemoblazeResistration"/>
         </classes>
             
     </test>
